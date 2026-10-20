@@ -1,0 +1,29 @@
+ECOS DE LA NOCHE — PROYECTO JUGABLE
+
+CONTENIDO
+- Juego 2D de plataformas con 10 niveles progresivos.
+- Murciélago con movimiento en cuatro direcciones, vuelo y ecolocalización.
+- Frutas y bichos que suman puntos y recuperan energía.
+- Enemigos, peligros, jefes, portal de salida, victoria/derrota y pausa.
+- HUD de energía/puntaje, selección de niveles, opciones y guardado local.
+- Sprites y efectos de sonido incluidos.
+
+CÓMO JUGAR EN WINDOWS
+1. Instala Godot Engine 4.x (recomendado Godot 4.4 o posterior).
+2. Descomprime este ZIP en una carpeta normal.
+3. Abre Godot, pulsa Importar y selecciona el archivo project.godot de esta carpeta.
+4. Abre el proyecto y pulsa F6/F5 o el botón Ejecutar proyecto.
+
+CONTROLES
+- A / Flecha izquierda: moverse a la izquierda.
+- D / Flecha derecha: moverse a la derecha.
+- W / Flecha arriba: volar/subir.
+- S / Flecha abajo: bajar.
+- E: activar ecolocalización y revelar objetos cercanos.
+- R: reiniciar el nivel.
+- Esc: pausar o continuar.
+
+NOTAS
+- El progreso se guarda localmente mediante user://ecos_de_la_noche.save.
+- La primera apertura puede tardar mientras Godot importa los recursos.
+- Este paquete contiene el proyecto fuente completo listo para ejecutar en Godot; no incluye un .exe exportado.
